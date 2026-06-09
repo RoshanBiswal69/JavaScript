@@ -25,5 +25,5 @@ console.log(booleanIsLoggedIn);
 
 let someNumber = 33
 
-let stringNumber = String(someNumber);
-console.log(stringNumber);
+let stringnumber = String(someNumber);
+console.log(stringnumber);
