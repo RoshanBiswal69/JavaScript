@@ -53,7 +53,7 @@ console.log(anotherName)
 
 let userOne = {
     email: "roshan@gmail.com"
-    upi: "user@ybl"
+    
 }
 
 let userTwo = userOne
@@ -61,4 +61,4 @@ let userTwo = userOne
 userTwo.email = "romshan@google.com"
 
 console.log(userOne.email);
-console.log(userTwo.email)
+console.log(userTwo.email);
