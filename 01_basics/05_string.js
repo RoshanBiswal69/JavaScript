@@ -3,7 +3,7 @@ const repoCount = 5
 // console.log(name + repoCount + " value");
 
 
-console.log(`hello my name is ${name} and my repoCount is ${repoCount}`);
+console.log(`hello my name is ${name} and my repoCount is ${repoCount}`);  //doing this type of output only for readability.
 
 const gameName = new String('Roshan')
 
