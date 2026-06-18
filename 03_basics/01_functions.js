@@ -35,3 +35,35 @@ return `${username} just logged in`
 }
 
 console.log(loginusermesssage("roshan"))
+
+
+function calculateCartPrice(...num1){
+return num1
+}
+
+console.log(calculateCartPrice(200,400,500))
+
+const user = {
+    username: "roshan",
+    price: 999
+}
+
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.username} and price is ${anyObject.price}`)
+}
+
+// handleObject(user)
+
+handleObject ({
+    username: "roshan",
+    price: 899
+})
+
+const myNewArray = [200, 300, 400]
+
+function returnSecondValue(getArray){
+       return getArray[1]
+}
+
+console.log(returnSecondValue(myNewArray));
+console.log(returnSecondValue([200, 300, 400]))
